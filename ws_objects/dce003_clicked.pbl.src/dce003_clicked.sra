@@ -12,6 +12,9 @@ end forward
 
 global type dce003_clicked from application
 string appname = "dce003_clicked"
+long richtextedittype = 0
+long richtexteditversion = 0
+string richtexteditkey = ""
 end type
 global dce003_clicked dce003_clicked
 
@@ -65,5 +68,6 @@ end if
 //end if
 
 //----
+Open(w_test)
 end event
 
