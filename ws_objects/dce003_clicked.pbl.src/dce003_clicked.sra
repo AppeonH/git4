@@ -63,5 +63,7 @@ end if
 //else
 //	open(w_mdi)
 //end if
+
+//----
 end event
 
